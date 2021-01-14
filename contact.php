@@ -17,10 +17,6 @@
 
             <link rel="stylesheet" href="styles.css">
             <style>
-              /*
-                Figma Background for illustrative/preview purposes only.
-                You can remove this style tag with no consequence
-              */
               body {background: #4068B2;}
             </style>
           
@@ -47,12 +43,19 @@
             <div id="mainText">
               <span class="textTitle">Contact Us</span>
               <div class=bodyText>
-                <p class="bodyTextFormat">Below are some of the links you can use to contact XCC. <br/><br/>test@gmail.com<br/><br/> <b>Form</b></p>
-                <?php
-                
-                    echo "<p class='bodyTextFormat'>test<p>";
-                
-                ?>
+                <p class="bodyTextFormat">You can use this page to contact XCC. The second form can be used to contact a Project Leader (comming soon).<br/><br/></p>
+                <form id="mainContact" action="/mainContact.php" method="post" target = "_blank">
+
+                <label for="name" class="formTextFormat">Full Name</label><br>
+                <input type="text" id="name" name="name" style="width:300; height:30" required><br><br>
+                <label for="email" class="formTextFormat">Email Address</label><br>
+                <input type="email" id="email" name="email" style="width:300; height:30" required><br><br>
+                <label for="query" class="formTextFormat">What is your Query?</label><br>
+                <textarea name="query" form="mainContact" style="width:500; height:200">Enter text here...</textarea><br><br>
+                <input type="submit" value="Submit"><br>
+
+                </form>
+
               </div>
             </div>
 
