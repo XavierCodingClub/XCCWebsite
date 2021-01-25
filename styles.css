@@ -1,0 +1,214 @@
+/*
+ * Created on Mon Jan 04 2021
+ * Author: Luke Sequeira
+ * Stylesheet for XCC webiste
+ *
+ * Copyright (c) 2021
+ */
+
+
+
+#menuBar { 
+	background-color:rgba(234.81250405311584, 229.9205705523491, 229.9205705523491, 1);
+	opacity:1;
+	margin:auto;
+	width:100%;
+	height:93px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	overflow-x: auto;
+}
+#About { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:128px;
+	height:35px;
+	position:absolute;
+	left:588px;
+	top:30px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+	cursor: pointer;
+}
+
+#mainText { 
+	opacity:1;
+	width:99.6%;
+	height:90%;
+	position:absolute;
+	top:93px;
+	letter-spacing:0;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+#Contacts { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:156px;
+	height:35px;
+	position:absolute;
+	left:831px;
+	top:30px;
+	font-family:Roboto;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+	cursor: pointer;
+}
+#menuTitle { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:93px;
+	height:56px;
+	position:absolute;
+	left:95px;
+	top:16px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+    cursor: pointer;
+}
+#topLogo { 
+	opacity:1;
+	width:80px;
+	height:79px;
+	position:absolute;
+	left:1px;
+	top:6px;
+	background-image:url(images/elogo_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#e1_17 { 
+	opacity:1;
+	width:65px;
+	height:17px;
+	position:absolute;
+	left:223px;
+	top:29px;
+}
+#Projects { 
+	color:rgba(0, 0, 0, 1);
+	opacity:1;
+	width:112px;
+	height:35px;
+	position:absolute;
+	left:361px;
+	top:30px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+	cursor: pointer;
+}
+#e1_24 { 
+	opacity:1;
+	width:54px;
+	height:52px;
+	position:absolute;
+	left:1311px;
+	top:22px;
+	background-image:url(images/eins_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#backgroundImage { 
+	opacity:0.1;
+	width:100%;
+	height:933px;
+	position:absolute;
+	left:0px;
+	top:93px;
+	background-image:url(images/etest_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.textTitle { 
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:931px;
+	height:71px;
+	position:absolute;
+	left:9px;
+	top:125px;
+	font-family:Roboto;
+	text-align:left;
+	font-size:96px;
+	letter-spacing:0;
+}
+.bodyText { 
+	position:absolute;
+	left:41px;
+	top:249px;
+	width:100%;
+}
+
+.bodyTextFormat { 
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:85%;
+	font-family:Roboto;
+	font-size:48px;
+	letter-spacing:0;
+}
+
+.formTextFormat { 
+	color:rgba(255, 255, 255, 1);
+	opacity:1;
+	width:85%;
+	font-family:Roboto;
+	font-size:31px;
+	letter-spacing:0;
+}
+
+#bottomImage { 
+	opacity:1;
+	width:100px;
+	height:154px;
+	position: fixed;
+	right:80px;
+	top:800px;
+	background-image:url(images/ecclogominwhite_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#homeImage { 
+	opacity:1;
+	width:50px;
+	height:46px;
+	position:absolute;
+	left:231px;
+	top:19px;
+	background-image:url(images/ehome_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    cursor: pointer;
+}
+
+/*SCROLLBAR UI, Remove to change to classic scrollbars. Doesn't work with firefox*/
+
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(104, 96, 96);
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgba(104, 96, 96, 0.692); 
+  }
