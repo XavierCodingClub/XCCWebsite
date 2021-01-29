@@ -1,15 +1,35 @@
-@font-face{
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+@font-face {
     font-family: Roboto;
-    src: url("Roboto.ttf") format("ttf");
+    src: url("/Roboto.ttf") format("ttf");
 }
-h1{
-    font-family:'Courier New', Courier, monospace;
-    font-size:60px;
+
+h1 {
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-bottom: 10px;
+    display: inline;
+    float: left;
 }
-.logo{
-    float:left;
-    height:60px;
-     width:60px;
+
+.logo {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
     background-image: url("images/elogo_1.png");
     background-size: 60px 60px;
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 60px;
+    width: 10px;
+    float: left;
+}
+
+.bar {
+    height: 60px;
 }
