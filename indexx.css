@@ -6,30 +6,49 @@
 }
 
 h1 {
-    padding-top: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    padding-bottom: 10px;
-    display: inline;
     float: left;
-}
+    position: absolute;
+    padding-top: -10px;
+    padding-left: 70px;
+    top:-10px;
+    display:block;
 
-.logo {
+}
+.home{
     float: left;
     height: 60px;
     width: 60px;
     margin-right: 10px;
     background-image: url("images/elogo_1.png");
-    background-size: 60px 60px;
-}
+    background-size: 60px 60px;}
 
 .vl {
-    border-left: 6px solid green;
+    border-left: 3px solid green;
     height: 60px;
     width: 10px;
     float: left;
+    position: relative;
+    right:-95px;
 }
 
 .bar {
     height: 60px;
+}
+p{
+    float:left;
+    font-size:40px;;
+}
+.top_bar{
+    padding-left: 10px;
+    padding-right:10px;
+    position: relative;
+    display:inline;
+}
+.top2{
+    position: absolute;
+    left: 180px;
+    float: left;
+    top:-0px;
 }
