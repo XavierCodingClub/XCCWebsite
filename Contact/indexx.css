@@ -1,0 +1,15 @@
+@font-face{
+    font-family: Roboto;
+    src: url("Roboto.ttf") format("ttf");
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size:60px;
+}
+.logo{
+    float:left;
+    height:60px;
+     width:60px;
+    background-image: url("../images/elogo_1.png");
+    background-size: 60px 60px;
+}
