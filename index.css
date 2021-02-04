@@ -15,7 +15,7 @@ h1 {
     padding-left: 70px;
     top:-10px;
     display:block;
-
+    color: white;
 }
 .home{
     float: left;
@@ -37,6 +37,7 @@ h1 {
 .bar {
     height: 60px;
     background-color:#333333;
+    opacity: 0.8;
     margin:0px;
     padding:0px;
 }
