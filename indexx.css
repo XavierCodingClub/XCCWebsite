@@ -43,6 +43,7 @@ h1 {
 p{
     float:left;
     font-size:40px;;
+    font-family: Roboto;
 }
 .top_bar{
     padding-left: 10px;
@@ -60,4 +61,24 @@ p{
 
 body{
     background-image: url("Pictures/codepic.png");
+}
+.para
+{
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size:30px;
+}
+.Text{
+    padding-top: 60px;
+    display: block;
+}
+.text1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    float: left;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 0px;
+    top:0px;
+    display:block;
 }
