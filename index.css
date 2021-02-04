@@ -49,6 +49,7 @@ p {
     padding:0px;
 }
 .top_bar{
+    top: 7px;
     padding-right: 20px;
     position: relative;
     display: inline;
