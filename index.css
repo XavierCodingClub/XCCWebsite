@@ -9,11 +9,23 @@
 h1, a{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    float: left;
     margin: 10 0;
-    display:block;
     color: white;
     text-decoration: none;
+}
+#XCC {
+    float: left;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    margin: 10 0;
+    color: white;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: white;
 }
 .home{
     float: left;
@@ -35,10 +47,6 @@ h1, a{
     opacity: 0.8;
     margin:0px;
     padding:0px;
-}
-p{
-    float:left;
-    font-size:40px;;
 }
 .top_bar{
     padding-right: 20px;
