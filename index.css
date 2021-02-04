@@ -6,23 +6,18 @@
     src: url("/Roboto.ttf") format("ttf");
 }
 */
-h1 {
+h1, a{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     float: left;
-    position: absolute;
-    padding-top: -10px;
-    padding-left: 70px;
-    top:-10px;
+    margin: 10 5;
     display:block;
     color: white;
+    text-decoration: none;
 }
 .home{
     float: left;
-    height: 60px;
     width: 60px;
-    margin-right: 10px;
-    background-image: url("images/elogo_1.png");
     background-size: 60px 60px;}
 
 .vl {
@@ -31,7 +26,7 @@ h1 {
     width: 10px;
     float: left;
     position: relative;
-    right:-95px;
+    left: 20;
 }
 
 .bar {
@@ -46,17 +41,15 @@ p{
     font-size:40px;;
 }
 .top_bar{
-    padding-left: 10px;
-    padding-right:10px;
+    padding-right: 20px;
     position: relative;
-    display:inline;
+    display: inline;
+    font-weight: bold;
 }
 .top2{
-    position: absolute;
-    left: 180px;
-    float: left;
-    top:-0px;
-    height:60px;
+    position: relative;
+    height: 100%;
+    left: 20px;
 }
 body{
     background-image: url("/images/coding.jpg");
