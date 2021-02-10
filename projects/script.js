@@ -6,23 +6,6 @@ var projects = [
             "github": "https://github.com/XavierCodingClub/XCCWebsite",
         },
     },
-    {
-        "name": "vscode",
-        "description": "ever heard of it?",
-        "links": {
-            "github": "https://github.com/microsoft/vscode",
-        },
-    }
-    /*
-    {
-        "name": "ccc prep",
-        "description": "plan to prepare club members for the upcoming 2021 ccc",
-    },
-    {
-        "name": "meet your maker",
-        "description": "a 2d survival game where you- blah blah blah the project is kinda dead tho"
-    }
-    */
 ]
 var container = document.getElementById("container")
 var pTemplate = document.getElementById("ptemplate")
