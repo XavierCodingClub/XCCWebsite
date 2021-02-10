@@ -24,7 +24,6 @@ h2{
 }
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
     color: white;
 }
 .home{
@@ -70,4 +69,23 @@ body{
     margin-top: 10;
     width: 100%;
     height: 100%;
+}
+#ptemplate {
+    display: none;
+}
+.content > h1 {
+    font-size: 60px;
+    text-align: center;
+}
+#titleblock {
+    width: 50%;
+    float: left;
+}
+#titleblock > h2 {
+    width: 100%;
+    text-align: center;
+}
+.project > p {
+    font-size: 18px;
+    font-weight: 600;
 }
