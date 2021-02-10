@@ -86,10 +86,11 @@ body{
     text-align: center;
 }
 .project {
+    display: flex;
     height: max-content;
 }
 .project > p {
-    height: 106;
+    flex: 1;
     font-size: 18px;
     font-weight: 600;
 }
