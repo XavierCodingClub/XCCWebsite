@@ -28,11 +28,11 @@
 
             <!-- Menu -->
             <div id="menuBar">
-              <span id="menuTitle" onmouseover="MenuHoverOn(this, document.getElementById('homeImage'))" onmouseout="MenuHoverOff(this, document.getElementById('homeImage'))" onmousedown="MenuItemClick('index.html')">XCC</span>
-              <div id="homeImage" onmouseover="MenuHoverOn(document.getElementById('menuTitle'), this)" onmouseout="MenuHoverOff(document.getElementById('menuTitle'), this)" onmousedown="MenuItemClick('index.html')"></div>
-              <span id="About" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onmousedown="MenuItemClick('about.html')">About us</span>
+              <span id="menuTitle" onmouseover="MenuHoverOn(this, document.getElementById('homeImage'))" onmouseout="MenuHoverOff(this, document.getElementById('homeImage'))" onmousedown="MenuItemClick('../index.html')">XCC</span>
+              <div id="homeImage" onmouseover="MenuHoverOn(document.getElementById('menuTitle'), this)" onmouseout="MenuHoverOff(document.getElementById('menuTitle'), this)" onmousedown="MenuItemClick('../index.html')"></div>
+              <span id="About" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onmousedown="MenuItemClick('../about')">About us</span>
               <span id="Contacts" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onmousedown="MenuItemClick('contact.php')">Contact Us</span>
-              <span id="Projects" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onmousedown="MenuItemClick('projects.php')">Projects</span>
+              <span id="Projects" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onmousedown="MenuItemClick('../projects')">Projects</span>
               <div id="topLogo"></div>
               <!--<div id="e1_24"></div> This is the insta logo-->
             </div>
