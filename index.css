@@ -62,6 +62,7 @@ p {
 }
 body{
     background-image: url("images/coding.jpg");
+    background-size: cover;
 }
 .content {
     background-color: #333333;
