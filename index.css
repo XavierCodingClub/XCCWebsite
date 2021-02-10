@@ -61,7 +61,7 @@ p {
     left: 20px;
 }
 body{
-    background-image: url("/images/coding.jpg");
+    background-image: url("images/coding.jpg");
 }
 .content {
     background-color: #333333;
