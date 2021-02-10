@@ -86,6 +86,8 @@ body{
     text-align: center;
 }
 .project {
+    background-color: black;
+    margin: 10 0;
     display: flex;
     height: max-content;
 }
