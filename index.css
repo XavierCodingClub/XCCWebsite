@@ -85,7 +85,19 @@ body{
     width: 100%;
     text-align: center;
 }
+.project {
+    height: max-content;
+}
 .project > p {
+    height: 106;
     font-size: 18px;
     font-weight: 600;
+}
+#linkline {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+.linkicon {
+    width: 40;
 }
