@@ -11,13 +11,13 @@
 
 <body>
 	<header class="bar">
-    <img class="home" src="images/elogo_1.png" onclick="window.location = './'"></img>
+    <img class="home" src="images/elogo_1.png" onclick="window.location = '/'"></img>
     <h1 id="XCC">XCC</h1>
     <div class="vl"></div>
     <div class="top2">
-      <a class="top_bar" href="projects/">Projects</a>
-      <a class="top_bar" href="about/">About us</a>
-      <a class="top_bar" href="contact/contact.php">Contact</a>
+      <a class="top_bar" href="/projects/">Projects</a>
+      <a class="top_bar" href="/about/">About us</a>
+      <a class="top_bar" href="/contact/contact.php">Contact</a>
     </div>
   </header>
   <div class="content" id="contact">
