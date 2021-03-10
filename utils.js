@@ -21,7 +21,7 @@ function MenuHoverOn(item, home=null){ //makes element change color on hover. If
 function MenuHoverOff(item, home=null){ //makes element change color on hover
 
     if(item != null){
-        item.style.color = "black"; //change this to change default color
+        item.style.color = "white"; //change this to change default color
     }
     if(home != null){
         home.style.backgroundImage = "url(images/ehome_1.png)"; //You can set the color how you please
