@@ -22,9 +22,11 @@ h2{
     margin: 10 0;
     color: white;
 }
-p {
+p, .bodyText {
     font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 18px;
+    font-weight: 600;
 }
 .home{
     float: left;
@@ -32,7 +34,7 @@ p {
     background-size: 60px 60px;}
 
 .vl {
-    border-left: 3px solid black;
+    border-left: 2px solid white;
     height: 60px;
     width: 10px;
     float: left;
@@ -94,8 +96,6 @@ body{
 }
 .project > p {
     flex: 1;
-    font-size: 18px;
-    font-weight: 600;
 }
 #linkline {
     margin-left: auto;
@@ -104,4 +104,18 @@ body{
 }
 .linkicon {
     width: 40;
+}
+
+/* /contact
+*/
+
+
+.bodyText {
+    text-align: center;
+}
+
+input[type="submit"] {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px 15px;
 }

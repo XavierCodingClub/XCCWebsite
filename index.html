@@ -5,19 +5,20 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
     rel="stylesheet"
   />
-  <link href="index.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" href="images/elogo_1.png">
+  <link href="/index.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="/images/elogo_1.png">
 </head>
 
 <body>
+  <script src="/utils.js"></script>
 	<header class="bar">
-    <img class="home" src="images/elogo_1.png" onclick="window.location = './'"></img>
+    <img class="home" src="/images/elogo_1.png" onclick="window.location = '/'"></img>
     <h1 id="XCC">XCC</h1>
     <div class="vl"></div>
     <div class="top2">
-      <a class="top_bar" href="projects/">Projects</a>
-      <a class="top_bar" href="about/">About us</a>
-      <a class="top_bar" href="contact/contact.php">Contact</a>
+      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/projects">Projects</a>
+      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/about">About us</a>
+      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/contact">Contact</a>
     </div>
   </header>
   <div class="content">
