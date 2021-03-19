@@ -11,6 +11,10 @@
 
 <body>
   <script src="/utils.js"></script>
+  <?php
+    $year = date("Y");
+    $month = date("m");
+  ?>
 	<header class="bar">
     <img class="home" src="/images/elogo_1.png" onclick="window.location = '/'"></img>
     <h1 id="XCC">XCC</h1>
@@ -23,7 +27,11 @@
   </header>
   <div class="content">
     <div class="calander">
-      <h1 class="month">March</h1>
+      <h1 class="month">
+      <?php
+        echo DateTime::createFromFormat('!m', $month)->format("F")
+      ?>
+      </h1>
       <ul class="weekdays">
         <li>Monday</li>
         <li>Tuesday</li>
@@ -35,37 +43,22 @@
       </ul>
 
       <ul class="days"> 
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-        <li>6</li>
-        <li>7</li>
-        <li>8</li>
-        <li>9</li>
-        <li>10</li>
-        <li>11</li>
-        <li>12</li>
-        <li>13</li>
-        <li>14</li>
-        <li>15</li>
-        <li>16</li>
-        <li>17</li>
-        <li>18</li>
-        <li>19</li>
-        <li>20</li>
-        <li>21</li>
-        <li>22</li>
-        <li>23</li>
-        <li>24</li>
-        <li>25</li>
-        <li>26</li>
-        <li>27</li>
-        <li>28</li>
-        <li>29</li>
-        <li>30</li>
-        <li>31</li>
+        <?php
+
+          $count = cal_days_in_month(CAL_GREGORIAN, $month, $year);
+          function getWeekday($date) {
+            return date('w', strtotime($date));
+          }
+          $offset = getWeekday(sprintf("%d-%d-%d", $year, $month, 1));
+          
+          for ($i = 0; $i < $offset-1; $i++) {
+            echo("<li style='opacity:0;'>" . $i . "</li>");
+          }
+
+          for ($i = 1; $i <= $count; $i++) {
+            echo("<li>" . $i . "</li>");
+          }
+        ?>
       </ul>
     </div>
   </div>
