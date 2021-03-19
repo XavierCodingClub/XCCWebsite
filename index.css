@@ -6,6 +6,10 @@
     src: url("/Roboto.ttf") format("ttf");
 }
 */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
 h1, a{
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
@@ -64,12 +68,11 @@ p, .bodyText {
 }
 body{
     background-image: url("images/coding.jpg");
-    background-size: cover;
 }
 .content {
-    background-color: #333333;
-    opacity: 0.8;
-    margin-top: 10;
+    background-color: rgb(33,33,33,0.8);
+	margin-top: 10px;
+	padding-top: 10px;
     width: 100%;
     height: 100%;
 }
