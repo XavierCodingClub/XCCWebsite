@@ -103,7 +103,7 @@ body{
 #linkline {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
+    width: 25%;
 }
 .linkicon {
     width: 40;
