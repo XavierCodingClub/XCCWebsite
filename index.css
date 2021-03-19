@@ -122,3 +122,41 @@ input[type="submit"] {
     border-radius: 5px;
     padding: 10px 15px;
 }
+
+
+/* calander
+*/
+.calander {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.month {
+   text-align: center; 
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.weekdays li {
+  width: calc(97% / 7);
+  display: inline-block;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.days li {
+  width: calc(100% / 7);
+  height: 5%;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:18px;
+}
