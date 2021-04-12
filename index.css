@@ -26,11 +26,13 @@ h2{
     margin: 10 0;
     color: white;
 }
+
 p, .bodyText {
     font-family: 'Roboto', sans-serif;
     color: white;
     font-size: 18px;
     font-weight: 600;
+text-align: center;
 }
 .home{
     float: left;

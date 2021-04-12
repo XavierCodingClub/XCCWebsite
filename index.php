@@ -26,6 +26,21 @@
     </div>
   </header>
   <div class="content">
+    <h1>Welcome to XCC</h1>
+    <p>
+This is the main page when it comes to all things programming <br>
+Feek free to look around <br>
+Our club is open to any new members. Feel free to drop in whenever we have a meet (Tuesday @2:35pm)<br>
+Join out google classroom! (Class code is: n242i2g)<br>
+Contact us <a href="mailto:fxcodingclub@gmail.com">fxcodingclub@gmail.com </a> or check out our Instagram @fxcodingclub <br>
+</p>
+
+
+
+
+
+    
+    </h3>
     <div class="calander">
       <h1 class="month">
       <?php
