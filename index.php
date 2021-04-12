@@ -32,7 +32,7 @@ This is the main page when it comes to all things programming <br>
 Feek free to look around <br>
 Our club is open to any new members. Feel free to drop in whenever we have a meet (Tuesday @2:35pm)<br>
 Join out google classroom! (Class code is: n242i2g)<br>
-Contact us <a href="mailto:fxcodingclub@gmail.com">fxcodingclub@gmail.com </a> or check out our Instagram @fxcodingclub <br>
+Contact us <u>fxcodingclub@gmail.com</u> or check out our Instagram @fxcodingclub <br>
 </p>
 
 
