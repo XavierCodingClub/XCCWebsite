@@ -1,0 +1,44 @@
+{
+	"Projects":[
+		{
+		"name":"Name of the project",
+		"Who":"Who built the project",
+		"Link":"Insert a link here",
+		"description":"Write a short description of the project here",
+		"date":"Insrt date here"
+		}
+
+	]
+
+	
+	"People":[
+		"Execs":[
+			{
+				"name":"name",
+				"contact":"Some way to contact",
+				"Age":Grade",
+			}
+
+
+		]
+		"Teachers":[
+
+			"name":"name",
+			"contact":"Some way to contact",
+			"Age":Grade",
+		]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
