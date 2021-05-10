@@ -25,7 +25,7 @@
     <h1 class="textTitle">Contact Us</h1>
       <div class=bodyText>
         <p class="bodyTextFormat">You can use this page to contact XCC. The second form can be used to contact a Project Leader (coming soon).<br/><br/></p>
-        <form id="mainContact" action="./mainContact.php" method="post" target = "_blank">
+        <form id="mainContact" action="contact/mainContact.php" method="post" target = "_blank">
           <label for="name" class="formTextFormat">Full Name</label><br>
           <input type="text" id="name" name="name" style="width:300; height:30" required><br><br>
           <label for="email" class="formTextFormat">Email Address</label><br>
