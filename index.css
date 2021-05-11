@@ -67,6 +67,7 @@ text-align: center;
 }
 body{
     background-image: url("images/coding.jpg");
+    background-size: cover;
 }
 .content {
     background-color: #fffffbd4;
@@ -154,4 +155,9 @@ input[type="submit"] {
   text-align: center;
   margin-bottom: 5px;
   font-size:18px;
+}
+/* projects
+*/
+.project_description{
+	color:white;
 }

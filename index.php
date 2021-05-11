@@ -21,7 +21,7 @@
     <div class="vl"></div>
     <div class="top2">
       <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/projects">Projects</a>
-      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/about.php">About us</a>
+      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="about.php">About us</a>
       <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/contact">Contact</a>
     </div>
   </header>
