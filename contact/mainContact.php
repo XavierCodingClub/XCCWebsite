@@ -1,7 +1,7 @@
 <!--
  * Created on Mon Jan 04 2021
  * Author: Luke Sequeira
- * Client-Side Javascript for XCC webiste
+ * Contact PHP for XCC webiste
  *
  * Copyright (c) 2021
 -->

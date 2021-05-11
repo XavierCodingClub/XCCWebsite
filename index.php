@@ -16,8 +16,8 @@
     $month = date("m");
   ?>
 	<header class="bar">
-    <img class="home" src="/images/elogo_1.png" onclick="window.location = '/'"></img>
-    <h1 id="XCC">XCC</h1>
+    <img class="home" src="/images/elogo_1.png" onmouseover="MenuHoverOn(document.getElementById('XCC'))" onmouseout="MenuHoverOff(document.getElementById('XCC'))" onclick="window.location = '/'"></img>
+    <h1 id="XCC" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onclick="window.location = '/'">XCC</h1>
     <div class="vl"></div>
     <div class="top2">
       <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/projects">Projects</a>
