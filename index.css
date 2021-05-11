@@ -67,6 +67,7 @@ text-align: center;
 }
 body{
     background-image: url("images/coding.jpg");
+    background-size: cover;
 }
 .content {
     background-color: #fffffbd4;
