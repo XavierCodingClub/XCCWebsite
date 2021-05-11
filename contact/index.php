@@ -13,7 +13,7 @@
   <script src="/utils.js"></script>
 	<header class="bar">
     <img class="home" src="images/elogo_1.png" onclick="window.location = '/'"></img>
-    <h1 id="XCC">XCC</h1>
+    <h1 class="XCC_name" id="XCC">XCC</h1>
     <div class="vl"></div>
     <div class="top2">
       <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/projects">Projects</a>
