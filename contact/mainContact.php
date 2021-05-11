@@ -1,10 +1,19 @@
+<!--
+ * Created on Mon Jan 04 2021
+ * Author: Luke Sequeira
+ * Client-Side Javascript for XCC webiste
+ *
+ * Copyright (c) 2021
+-->
+
+
 <?php
                  
                  $name = test_input($_POST['name']);
                  $email = test_input($_POST['email']);
                  $query = test_input($_POST['query']);
                  //$query = wordwrap($query, 68, "\n"); //inserts newlines every 68 charecters as required by php (php requires it every 70 chars) //do this on server, once mailto is removed
-                 $recipient = "XCCexample@gmail.com"; //replace with desired email
+                 $recipient = "fxcodingclub@gmail.com"; //replace with desired email
 
                  $email_subject = "XCC Form Submition from $name";
                  $email_body = "The form on XCC's website has recieved a submision from $name \n\n $query";
