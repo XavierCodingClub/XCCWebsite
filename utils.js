@@ -7,6 +7,13 @@
  */
 
 
+
+/**
+ * 
+ * Note: due to a html layout change the home functionality is now obselete
+ * 
+ */
+
 function MenuHoverOn(item, home=null){ //makes element change color on hover. If home is not null, sets it to colored
 
     if(item != null){

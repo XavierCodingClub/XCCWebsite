@@ -11,16 +11,11 @@
 
 <body>
   <script src="/utils.js"></script>
-	<header class="bar">
-    <img class="home" src="/images/elogo_1.png" onmouseover="MenuHoverOn(document.getElementById('XCC'))" onmouseout="MenuHoverOff(document.getElementById('XCC'))" onclick="window.location = '/'"></img>
-    <h1 id="XCC" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" onclick="window.location = '/'">XCC</h1>
-    <div class="vl"></div>
-    <div class="top2">
-      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/projects">Projects</a>
-      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="about.php">About us</a>
-      <a class="top_bar" onmouseover="MenuHoverOn(this)" onmouseout="MenuHoverOff(this)" href="/contact">Contact</a>
-    </div>
-  </header>
+  <?php
+  $menu = fopen("menu.html", "r") or die("ERROR! UNABLE TO OPEN MENU FILE");
+  echo fread($menu, filesize("menu.html"));
+  fclose($menu);
+  ?>
   <div class="content" id="contact">
     <h1 class="textTitle">About us</h1>
       <div class=bodyText>
