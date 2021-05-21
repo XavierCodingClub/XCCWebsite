@@ -1,2 +1,4 @@
 .DS_Store
 credentials.json
+token.json
+vendor
