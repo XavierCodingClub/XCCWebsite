@@ -24,4 +24,8 @@
 <p>We've also had the opportunity of having multiple guest speakers, hearing what it’s like to be in the field, first hand, and also the basics of Machine Learning from a distinguished engineer.</p>
       </div>
   </div>
+  <div><a herf="services/sign-in.php">
+  <p>Hi guys</p></a>
+
+  </div>
 </body>
