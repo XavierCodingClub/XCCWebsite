@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 
@@ -21,14 +19,14 @@
       var id_token = googleUser.getAuthResponse().id_token;
       console.log("ID_TOKEN: ", id_token);
 
-    //Send token to backend via https post cause why not 
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'auth.php');
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onload = function(){
-      console.log ('signed in as: ' + xhr.responseText);
-    }
-    xhr.send('idtoken' + id_token);
+      //Send token to backend via https post cause why not 
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'https://yourbackend.example.com/tokensignin');
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhr.onload = function() {
+        console.log('Signed in as: ' + xhr.responseText);
+      };
+      xhr.send('idtoken=' + id_token);
     }
   </script>
 </body>
