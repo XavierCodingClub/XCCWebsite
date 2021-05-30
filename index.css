@@ -163,3 +163,18 @@ input[type="submit"] {
 .project_description{
 	color:white;
 }
+
+/* services
+*/
+
+label, input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 7 18;
+    color: black;
+    width:300px;
+}
+
+.submit{
+    size:10px;
+}
