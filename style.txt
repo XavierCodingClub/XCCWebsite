@@ -1,0 +1,13 @@
+Indentation:
+    Use tabs, 4 spaces width
+
+CSS:
+	CSS which is intended to affect everything on the website is put under `style.css`
+	CSS which is only for a **SPECIFIC** page is going to be in a <style> tag in that page's code
+	Only one style tag per page
+	Use Classes & ID's
+	Try to stray away from using absolute values
+
+Comments/Documentation:
+	Make sure to comment code when nessicary
+	Readable code > Fast Code
