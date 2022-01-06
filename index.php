@@ -1,5 +1,6 @@
 <head>
-	<
+	<link rel="shortcut icon" type="image" href="images/elogo_1.png"/>
+	<title>XCC Website</title>
 </head>
 
 <style>
